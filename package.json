@@ -1,0 +1,15 @@
+{
+  "name": "workers-jwt-auth-middleware",
+  "version": "1.0.0",
+  "description": "Authentication middleware example for Cloudflare Workers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jarrett <jarrett@thoriumdesign.com>",
+  "license": "ISC",
+  "dependencies": {
+    "itty-router": "^2.1.9",
+    "serverless-cloudflare-workers": "^1.2.0"
+  }
+}
