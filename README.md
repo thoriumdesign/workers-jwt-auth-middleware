@@ -4,7 +4,7 @@ This example uses the [`itty-router`](https://github.com/kwhitley/itty-router) p
 
 `auth.js` is the file with the JWT validation code.
 
-#### Using this code
+### Using this code
 
 You can use [wrangler](https://github.com/cloudflare/wrangler) to generate a new Cloudflare Workers project based on the itty-router template by running the following command from your terminal:
 
@@ -30,7 +30,7 @@ Once you are ready, you can publish your code by running the following command:
 wrangler publish
 ```
 
-#### Worker Secrets Environment Variables
+### Worker Secrets Environment Variables
 
 After publishing your Worker, for the middleware to work, you need to add the Wrangler Secrets to the Worker.
 
